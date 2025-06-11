@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
-        /* Footer padding and alignment fix */
+        /* Footer padding and alignment fix (overridden by inline styles) */
         #footer .split.contact {
             display: flex;
             justify-content: center;
@@ -45,8 +45,14 @@
         <p>
             Future-proof your career with on-demand skills in data, technology and AI.
         </p>
+        <!-- Added image right before the arrow -->
+        <img src="images/TacitFlyer1.jpg" alt="Tacit Flyer" class="image main" />
         <ul class="actions">
-            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            <li>
+                <a href="#header" class="button icon solid solo fa-arrow-down scrolly">
+                    Continue
+                </a>
+            </li>
         </ul>
     </div>
 
@@ -79,7 +85,7 @@
                 <ul class="actions special" style="margin-bottom: 1.5em;">
                     <li><a href="#" class="button large primary">Join the Course</a></li>
                 </ul>
-                <a href="#" class="image main"><img src="images/PowerBI1.jpg" alt="Flyer" /></a>
+                <img src="images/PowerBI1.jpg" alt="Flyer" class="image main" />
                 <p>
                     <b>Ready to turn numbers into stories and attentive visuals?</b><br>
                     In 5 live, 2-hour hands-on sessions, this course will walk you step-by-step from raw data to polished dashboards in Power BI to take your career to the next level.<br>
@@ -116,29 +122,50 @@
     </div>
 
     <!-- Footer -->
-    <footer id="footer">
-        <div class="split contact">
-            <div>
-                <h3>Email</h3>
-                <p><a href="mailto:tacitlearn@gmail.com">tacitlearn@gmail.com</a></p>
-            </div>
-            <div>
-                <h3>Social</h3>
-                <ul class="icons alt" style="justify-content: center;">
-                    <li>
-                        <a href="https://www.facebook.com/share/1GS6xGtp97/" class="icon brands alt fa-facebook-f" target="_blank" rel="noopener">
-                            <span class="label">Facebook</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <footer id="footer" style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2em 0 1.5em 0;
+    ">
+      <div class="split contact" style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1.5em;
+          width: 100%;
+          max-width: 600px;
+      ">
+        <div>
+          <h3>Email</h3>
+          <p style="margin: 0;">
+            <a href="mailto:tacitlearn@gmail.com">tacitlearn@gmail.com</a>
+          </p>
         </div>
+        <div>
+          <h3>Social</h3>
+          <ul class="icons alt" style="
+              display: flex;
+              justify-content: center;
+              padding: 0;
+              margin: 0;
+              list-style: none;
+          ">
+            <li>
+              <a href="https://www.facebook.com/share/1GS6xGtp97/" class="icon brands alt fa-facebook-f" target="_blank" rel="noopener">
+                <span class="label">Facebook</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 1.5em;">
+        <p style="margin: 0;">&copy; Tacit USA</p>
+      </div>
     </footer>
 
-    <!-- Copyright -->
-    <div id="copyright">
-        <ul><li>&copy; Tacit USA</li></ul>
-    </div>
 </div>
 
 <!-- Scripts -->
