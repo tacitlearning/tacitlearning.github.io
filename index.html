@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
-        /* Footer padding and alignment fix (overridden by inline styles) */
+        /* Footer padding and alignment fix */
         #footer .split.contact {
             display: flex;
             justify-content: center;
@@ -32,6 +32,11 @@
                 padding: 0;
             }
         }
+        /* Intro flyer width */
+        #intro .image.main {
+            width: 75%;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -45,8 +50,15 @@
         <p>
             Future-proof your career with on-demand skills in data, technology and AI.
         </p>
-        <!-- Added image right before the arrow -->
-        <img src="images/TacitFlyer1.jpg" alt="Tacit Flyer" class="image main" />
+        <!-- New button linking to the upcoming course -->
+        <ul class="actions special">
+            <li><a href="#upcoming-course" class="button large primary">Upcoming Course</a></li>
+        </ul>
+        <!-- Flyer image -->
+        <div class="image main">
+            <img src="images/TacitFlyer1.jpg" alt="Tacit Flyer" />
+        </div>
+        <!-- Continue arrow -->
         <ul class="actions">
             <li>
                 <a href="#header" class="button icon solid solo fa-arrow-down scrolly">
@@ -79,7 +91,7 @@
     <div id="main">
 
         <!-- Featured Post: COURSE CONTENT UPDATED -->
-        <article class="post featured">
+        <article id="upcoming-course" class="post featured">
             <header class="major">
                 <h3>DS-100 Introduction to Data Analysis and Visualization with Power BI</h3>
                 <ul class="actions special" style="margin-bottom: 1.5em;">
