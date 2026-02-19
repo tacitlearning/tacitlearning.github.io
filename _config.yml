@@ -8,10 +8,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "mint"
 
 locale: "en-US"
-title: "Tacit Learning"
+title: "Tacit Technology"
 title_separator: "-"
-name: "Tacit Learning"
-description: "Practical training in Project Management, Artificial Intelligence, and Data Analytics."
+name: "Welcome to Tacit Learning"
+description: "Accelerated training in Project Management, Artificial Intelligence, and Data Analytics."
 
 markdown: kramdown
 highlighter: rouge
@@ -37,7 +37,7 @@ defaults:
       layout: single
       author_profile: false
 
-# Clean footer (removes Feed + Powered by Jekyll)
+# Footer
 footer:
   links: []
   powered_by: false
