@@ -8,9 +8,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "mint"
 
 locale: "en-US"
-title: "Tacit Technology"
+title: "Tacit Solutions"
 title_separator: "-"
-name: "Tacit Technology"
+name: "Tacit Solutions"
 description: "Practical training in Project Management, Artificial Intelligence, and Data Analytics."
 
 markdown: kramdown
