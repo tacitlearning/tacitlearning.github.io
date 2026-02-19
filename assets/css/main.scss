@@ -1,0 +1,63 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes";
+/* ============================
+   Modern gradient + clean cards
+   (original styling)
+   ============================ */
+
+:root{
+  --tacit-navy:#0b3a63;
+  --tacit-blue:#0f5fa3;
+  --tacit-teal:#12b3a8;
+  --tacit-ink:#0b1220;
+}
+
+/* Logo */
+.site-logo__img{ height: 44px; width:auto; display:block; }
+
+/* Masthead: clean + subtle divider */
+.masthead{
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+/* Hero spacing */
+.page__hero--overlay{
+  padding-top: 3.75rem;
+  padding-bottom: 3.25rem;
+}
+
+/* Primary button: modern gradient */
+.btn--primary{
+  background: linear-gradient(135deg, var(--tacit-blue), var(--tacit-teal));
+  border: none;
+}
+.btn--primary:hover{
+  filter: brightness(0.98);
+}
+
+/* Rounded cards + subtle shadows */
+.feature__item{
+  background: #fff;
+  border: 1px solid rgba(11,18,32,.06);
+  border-radius: 18px;
+  padding: 1.35rem;
+  box-shadow: 0 14px 34px rgba(11,18,32,.10);
+  transform: translateY(0);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.feature__item:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 44px rgba(11,18,32,.14);
+}
+
+/* Footer: clean */
+.page__footer{
+  padding: 1.5rem 0;
+}
+.page__footer-follow{
+  display:none !important;
+}
+
