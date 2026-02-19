@@ -10,13 +10,17 @@ minimal_mistakes_skin: "mint"
 locale: "en-US"
 title: "Tacit Technology"
 title_separator: "-"
-name: "Welcome to Tacit Learning"
-description: "Accelerated training in Project Management, Artificial Intelligence, and Data Analytics."
+name: "Tacit Technology"
+description: "Practical training in Project Management, Artificial Intelligence, and Data Analytics."
 
 markdown: kramdown
 highlighter: rouge
 
-# Plugins (Feed removed)
+# IMPORTANT: this hides the Feed link in BOTH the <head> and the footer (Minimal Mistakes option)
+atom_feed:
+  hide: true
+
+# Plugins (keep sitemap; feed plugin not needed since we're hiding it)
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -36,8 +40,3 @@ defaults:
     values:
       layout: single
       author_profile: false
-
-# Footer
-footer:
-  links: []
-  powered_by: false
