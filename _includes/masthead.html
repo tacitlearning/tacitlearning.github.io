@@ -2,18 +2,15 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
 
+      <!-- LOGO LEFT SIDE -->
       <a href="{{ '/' | relative_url }}" class="site-logo">
-        <img src="{{ '/assets/images/Tacit_Logo.png' | relative_url }}"
-             alt="{{ site.title }} Logo"
-             class="site-logo__img">
+        <img src="{{ '/assets/images/Tacit_Logo.png' | relative_url }}" 
+             alt="Tacit Technology Logo"
+             style="height: 45px; width: auto;">
       </a>
 
+      <!-- NAVIGATION -->
       <nav id="site-nav" class="greedy-nav">
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
@@ -21,8 +18,6 @@
             </li>
           {% endfor %}
         </ul>
-
-        <ul class="hidden-links hidden"></ul>
       </nav>
 
     </div>
