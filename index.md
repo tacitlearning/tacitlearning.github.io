@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Tacit Technology"
+title: "Tacit Solutions"
 permalink: /
 header:
   overlay_color: "#111111"
