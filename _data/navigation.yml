@@ -1,11 +1,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Project Management"
-    url: /project-management/
+
   - title: "Artificial Intelligence"
     url: /artificial-intelligence/
+
+  - title: "Project Management"
+    url: /project-management/
+
   - title: "Data Analytics"
     url: /data-analytics/
+
   - title: "Contact Us"
     url: /contact/
