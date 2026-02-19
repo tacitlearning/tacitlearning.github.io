@@ -14,19 +14,19 @@ feature_row:
   - title: "Artificial Intelligence"
     excerpt: "Hands-on AI skills focused on real workflows and business impact."
     url: /artificial-intelligence/
-    btn_label: "Explore AI"
+    btn_label: "Artificial Intelligence Courses"
     btn_class: "btn--primary"
 
   - title: "Project Management"
     excerpt: "Practical skills for planning, executing, and delivering results."
     url: /project-management/
-    btn_label: "Explore PM"
+    btn_label: "Project Management Courses"
     btn_class: "btn--primary"
 
   - title: "Data Analytics"
     excerpt: "From cleaning data to dashboards - learn to deliver clear insights."
     url: /data-analytics/
-    btn_label: "Explore Data"
+    btn_label: "Data Analytics and Visualization Courses"
     btn_class: "btn--primary"
 ---
 
