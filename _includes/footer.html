@@ -1,25 +1,10 @@
-<footer class="page__footer"
-  style="
-    background:#0b1220;
-    color:#e6edf5;
-    border-top:1px solid rgba(255,255,255,0.08);
-    position:relative;
-    left:50%;
-    right:50%;
-    margin-left:-50vw;
-    margin-right:-50vw;
-    width:100%;
-  ">
+<footer class="page__footer tacit-footer">
+  <div class="page__footer-follow" style="display:none !important;"></div>
 
-  <div style="max-width:1100px; margin:0 auto; padding:1.75rem 1.25rem; text-align:center;">
-    <div class="page__footer-follow" style="display:none !important;"></div>
-
-    <div class="page__footer-copyright" style="font-weight:500; letter-spacing:0.02em;">
+  <div class="tacit-footer__inner">
+    <div class="page__footer-copyright">
       &copy; {{ site.time | date: '%Y' }}
-      <a href="{{ '/' | relative_url }}" style="color:#ffffff; opacity:0.85; text-decoration:none;">
-        {{ site.title }}
-      </a>
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </div>
   </div>
-
 </footer>

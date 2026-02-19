@@ -1,0 +1,24 @@
+/* Full-width dark footer background */
+.tacit-footer{
+  background:#0b1220;
+  color:#e6edf5;
+  border-top:1px solid rgba(255,255,255,0.08);
+  width:100%;
+}
+
+.tacit-footer a{
+  color:#ffffff;
+  opacity:0.85;
+  text-decoration:none;
+}
+
+.tacit-footer a:hover{
+  opacity:1;
+}
+
+.tacit-footer__inner{
+  max-width:1100px;
+  margin:0 auto;
+  padding:1.75rem 1.25rem;
+  text-align:center;
+}
