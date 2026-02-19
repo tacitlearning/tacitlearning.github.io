@@ -6,7 +6,6 @@ header:
   overlay_color: "#111111"
   overlay_filter: "0.35"
   # overlay_image: /assets/images/hero.jpg
-  caption: "Practical training you can use immediately."
 excerpt: "Project Management, Artificial Intelligence, and Data Analytics training for professionals and teams."
 feature_row:
   - title: "Project Management"
